@@ -1,29 +1,42 @@
+/* GLOBAL */
+
 * {
 	padding: 0;
 	margin: 0;
 }
 
-body {
-	background: linear-gradient(270deg, #fc129a, #a000a0, #12affc, #00FD8D, #f08000, #fc129a);
-	background-size: 800% 800%;
-	animation: bg_move 30s ease infinite;
-}
+/* SIZES */
 
-@keyframes bg_move { 
-	0%{background-position:0% 50%}
-	50%{background-position:100% 50%}
-	100%{background-position:0% 50%}
-}
+.w_256	{ width:	256px	}
+.w_full	{ width:	100vw	}
 
-.logo {
+.h_256	{ height:	256px	}
+.h_full	{ height:	100vh	}
+
+/* POSITIONS */
+
+.pos_abs_center {
 	position: absolute;
 	margin: auto;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	width: 256px;
-	height: 256px;
-	filter: drop-shadow( 0 5px 15px rgba(0, 0, 0, 0.1) );
-	filter: invert(1);
+}
+
+/* FX */
+
+.fx_invert { filter: invert(1) }
+.fx_gradient {
+	background: linear-gradient(270deg, #ff0022, #be05be, #1caafc, #00FD8D, #f08000, #fc129a);
+	background-size: 800% 800%;
+	animation: dolly_left_right_left 60s ease infinite;
+}
+
+/* ANIMATIONS */
+
+@keyframes dolly_left_right_left { 
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
 }
