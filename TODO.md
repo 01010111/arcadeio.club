@@ -1,0 +1,21 @@
+# Pages
+
+- [ ] CSS for markdown
+	- [x] content
+	- [x] h1
+	- [x] h2
+	- [x] h3
+	- [x] p
+	- [ ] ol/ul/li
+	- [ ] pre
+	- [x] a
+- [ ] Blog
+	- [ ] Blog Main page
+	- [ ] MD conversion
+- [ ] Arcade List
+	- [ ] Individual Arcade Pages
+- [ ] Find an arcade
+	- [ ] Google map
+		- [ ] Custom colors duh
+	- [ ] Links to list
+- [ ] Get an arcade
