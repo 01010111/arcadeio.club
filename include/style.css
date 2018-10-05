@@ -4,7 +4,7 @@
 }
 
 body {
-	background: linear-gradient(270deg, #f08000, #fc129a, #a000a0, #12affc);
+	background: linear-gradient(270deg, #fc129a, #a000a0, #12affc, #00FD8D, #f08000, #fc129a);
 	background-size: 800% 800%;
 	animation: bg_move 30s ease infinite;
 }
