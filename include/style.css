@@ -8,10 +8,7 @@
 /* SIZES */
 
 .w_256	{ width:	256px	}
-.w_full	{ width:	100vw	}
-
 .h_256	{ height:	256px	}
-.h_full	{ height:	100vh	}
 
 /* POSITIONS */
 
@@ -30,12 +27,12 @@
 .fx_gradient {
 	background: linear-gradient(90deg, #ff0022, #be05be, #1caafc, #00FD8D, #ffed00, #f08000, #fc129a);
 	background-size: 800% 800%;
-	animation: dolly_left_right_left 60s ease infinite;
+	animation: gradient_pan 60s ease infinite;
 }
 
 /* ANIMATIONS */
 
-@keyframes dolly_left_right_left { 
+@keyframes gradient_pan { 
 	0%{background-position:0% 50%}
 	50%{background-position:100% 50%}
 	100%{background-position:0% 50%}
